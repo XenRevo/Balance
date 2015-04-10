@@ -1,0 +1,19 @@
+name: Balance
+main: me.xenrevo.balance.Main
+version: 1.6.1
+description: Format /bal command.
+load: POSTWORLD
+database: false
+softdepend: []
+depend: [Vault]
+loadbefore: []
+prefix: Bal
+author: xenrevo
+
+commands:
+   balance:
+      description: Get Current Balance.
+      usage: /balance
+      aliases: [bal,money]
+      permission-message: Sorry, You don't have <permission>
+permissions:
